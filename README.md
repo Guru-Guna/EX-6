@@ -21,8 +21,7 @@ To write the python program for simulating ping command.
 # PROGRAM :
 ## CLIENT :
 ```
-# Developed by : M.D.HARINI
-# Register Number : 212222230043
+
 import socket
 from pythonping import ping
 s=socket.socket()
@@ -38,8 +37,6 @@ while True:
  ```
 ## SERVER :
 ```
-# Developed by : M.D.HARINI
-# Register Number : 212222230043
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
